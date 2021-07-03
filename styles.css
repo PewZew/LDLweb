@@ -1,0 +1,276 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+	font-family:calibri;
+	color: white;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+/*My code*/
+body {
+	background-color: #2f3136;
+}
+h1 {
+	color: white;
+	font-family: calibri;
+	font-size: 80px;
+	text-align: center;
+	margin-top: 150px;
+}
+h2 {
+	color: white;
+	font-family: calibri;
+	text-align: center;
+	font-size: 40px;
+}
+h3 {
+	color: white;
+	font-family: calibri;
+	text-align: center;
+	font-size: 50px;
+	margin-top: 350px;
+}
+.header {
+	background-color: #36393f;
+	padding: 5px;
+	width: 1359x;
+	position: relative;
+}
+div.a1 {
+	position:absolute;
+	top: 5px;
+	right: 16px;
+}
+div.a2 {
+	position:absolute;
+	top: 20px;
+	left: 125px;
+}
+.buttonmain {
+	background-color: #36393f;
+	padding: 50px;
+	width: 1259px;
+	position: relative;
+}
+
+div.a3 {
+	top: 20px;
+	left: 600px;
+	position: absolute;
+}
+
+#top a:link {
+	color: white;
+	padding: 5px 5px;
+	font-size: 100%;
+	text-decoration: none;
+	display: inline-block;
+	font-family: calibri;
+	transition: color 0.3s linear;
+	-webkit-transition: color 0.3s linear;
+    -moz-transition: color 0.3s linear;
+}
+
+#top a:visited {
+	color: white;
+	padding: 5px 5px;
+	font-size: 100%;
+	text-decoration: none;
+	display: inline-block;
+	font-family: calibri;
+	transition: color 0.3s linear;
+	-webkit-transition: color 0.3s linear;
+    -moz-transition: color 0.3s linear;
+}
+
+#top a:hover {
+	color: #da251d;
+}
+
+#top a: active {
+	color: #da251d;
+}
+
+#logo a:link {
+	padding: 5px 5px;
+	-webkit-transition: opacity 0.3s ease-in-out;
+	-moz-transition: opacity 0.3s ease-in-out;
+	-o-transition: opacity 0.3s ease-in-out;
+	transition: opacity 0.3s ease-in-out;
+}
+
+#logo a:visited {
+	padding: 5px 5px;
+	-webkit-transition: opacity 0.3s ease-in-out;
+	-moz-transition: opacity 0.3s ease-in-out;
+	-o-transition: opacity 0.3s ease-in-out;
+	transition: opacity 0.3s ease-in-out;
+}
+
+#main a:link {
+	background-color: #da251d;
+	color: white;
+	padding: 15px 25px;
+	font-size: 100%;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-family: calibri;
+	transition: color 0.3s linear;
+	-webkit-transition: color 0.3s linear;
+	-moz-transition: color 0.3s linear;
+	margin-top: 10px;
+}
+
+#main a:visited {
+	background-color: #da251d;
+	color: white;
+	padding: 15px 25px;
+	font-size: 100%;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-family: calibri;
+	transition: color 0.3s linear;
+	-webkit-transition: color 0.3s linear;
+	-moz-transition: color 0.3s linear;
+	margin-top: 10px;
+}
+
+#main a:hover {
+	color: #ffff00;
+}
+
+#main a:link {
+	color: #ffff00;
+}
+
+#desc {
+	font-size: 150%;
+	text-align: center;
+}
+
+.container {
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+}
+
+.container > div {
+	margin-top: 100px;
+	margin-left: 100px;
+	margin-right: 100px;
+	padding: 20px;
+	font-size: 30px;
+}
+
+@media (max-width: 800px) {
+	.container {
+		flex-direction: column;
+	}
+}
+
+.dash-divider {
+    width: 100%;
+    height: 1px;
+    background-color: rgba(255,255,255,0.1);
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
