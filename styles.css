@@ -204,41 +204,37 @@ div.a3 {
 	transition: opacity 0.3s ease-in-out;
 }
 
-#main a:link {
+#mainbutton a:link {
 	background-color: #da251d;
 	color: white;
 	padding: 15px 25px;
 	font-size: 100%;
-	text-align: center;
 	text-decoration: none;
 	display: inline-block;
 	font-family: calibri;
 	transition: color 0.3s linear;
 	-webkit-transition: color 0.3s linear;
 	-moz-transition: color 0.3s linear;
-	margin-top: 10px;
 }
 
-#main a:visited {
+#mainbutton a:visited {
 	background-color: #da251d;
 	color: white;
 	padding: 15px 25px;
 	font-size: 100%;
-	text-align: center;
 	text-decoration: none;
 	display: inline-block;
 	font-family: calibri;
 	transition: color 0.3s linear;
 	-webkit-transition: color 0.3s linear;
 	-moz-transition: color 0.3s linear;
-	margin-top: 10px;
 }
 
-#main a:hover {
+#mainbutton a:hover {
 	color: #ffff00;
 }
 
-#main a:link {
+#mainbutton a:link {
 	color: #ffff00;
 }
 
