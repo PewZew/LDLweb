@@ -155,15 +155,22 @@
 				</b> </div>
 			</div>
 		</div>
-		<button id="btnScrollToTop">
+		<button id="backtop">
 			<i class="fas fa-arrow-up"></i>
 		</button>
 		<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 		<script>
-			const btnScrollToTop = document.querySelector("#btnScrollToTop");
-
-			btnScrollToTop.addEventListener("click", function() {
-				$("html, body").animate({ scrollTop: 0 }, "slow")
+			$(document).ready(function() {
+				$(window).scroll(function() {
+					if($(this).scrollTop()) {
+						$('#backtop').fadeIn()
+					} else {
+						$('#backtop').fadeOut()
+					}
+				})
+				$('#backtop').click(function() {
+					$('html, body').animate({ scrollTop: 0 }, 500)
+				})
 			})
 		</script>
 		<script>
