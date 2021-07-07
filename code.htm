@@ -1,10 +1,12 @@
 ﻿<!DOCTYPE html>
 <html lang="vi-VN">
 	<head>
-		<link rel="stylesheet" href="styles.css">
+		<link rel="stylesheet" type="text/css" href="styles.css">
 		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
 		<link rel="icon" href="icon.png" type="image/png" sizes="16x16"/>
+		<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
 		<meta charset="UTF-8">
 		<title>Lân Đông Lào</title>
 		<style>
@@ -21,6 +23,14 @@
 		</style>
 	</head>
 	<body>
+		<script>
+			$(document).ready(function () {
+				$(".accordion-header").click(function() {
+					$(this).parent().toggleClass('active')
+					$(this).parent().children('.accordion-body').slideToggle()
+				})
+			});
+		</script>
 		<div name="head">
 			<div class="header">
 				<a href="index.htm">
@@ -52,9 +62,192 @@
 		</div>
 		<div name="main">
 			<h3 style="margin-top: 150px; margin-bottom: 150px;">
-				<!--Các nhóm lệnh và lệnh của bot:-->
-				Trang đang trong quá trình phát triển
+				Các nhóm lệnh và lệnh của bot:
+				<!--Trang đang trong quá trình phát triển-->
 			</h3>
+			<div id="wrapper">
+				<div class = "accordion">
+					<div class="accordion-item">
+						<div class="accordion-header">
+							<h4>Lệnh cho staff/admin:</h4>
+							<i class="arrow fas fa-chevron-down"></i>
+						</div>
+						<div class="accordion-body">
+							<p>
+								<code>
+									quanly &lt;thành viên&gt;
+								</code>
+								: Lệnh này sẽ giúp bạn quản lý thành viên trong máy chủ
+							</p>
+							<p>
+								<code>
+									caidat
+								</code>
+								: Lệnh này sẽ giúp bạn thay đổi cài đặt của bot trong máy chủ
+							</p>
+							<p>
+								<code>
+									clearchat &lt;số tin nhắn&gt;
+								</code>
+								: Lệnh này sẽ giúp bạn xóa lượng tin nhắn không quá 50 trong kênh tin nhắn
+							</p>
+							<p>
+								<code>
+									slow &lt;thời gian&gt;
+								</code>
+								: Lệnh này sẽ giúp bạn chỉnh chế độ chậm (tính bằng giây) của kênh tin nhắn
+							</p>
+							<p>
+								<code>
+									prefix &lt;prefix mới&gt;
+								</code>
+								: Lệnh này sẽ giúp bạn thay đổi prefix của bot trong máy chủ
+							</p>
+						</div>
+					</div>
+					<div class="accordion-item">
+						<div class="accordion-header">
+							<h4>Thông tin:</h4>
+							<i class="arrow fas fa-chevron-down"></i>
+						</div>
+						<div class="accordion-body">
+							<p>
+								<code>
+									userinfo (&lt;thành viên&gt;)
+								</code>
+								: Lệnh này sẽ giúp bạn xem được thông tin của bạn hoặc thành viên trong máy chủ
+							</p>
+							<p>
+								<code>
+									svinfo
+								</code>
+								: Lệnh này sẽ giúp bạn xem được thông tin của máy chủ
+							</p>
+							<p>
+								<code>
+									avatar (&lt;thành viên&gt;)
+								</code>
+								: Lệnh này sẽ giúp bạn xem được hình đại diện của bạn hoặc thành viên trong máy chủ
+							</p>
+							<p>
+								<code>
+									svavatar (&lt;thành viên&gt;)
+								</code>
+								: Lệnh này sẽ giúp bạn xem được hình đại diện của máy chủ
+							</p>
+							<p>
+								<code>
+									ping
+								</code>
+								: Lệnh này sẽ giúp bạn chơi ping pong với bot và kiểm tra độ nhanh của bot
+							</p>
+						</div>
+					</div>
+					<div class="accordion-item">
+						<div class="accordion-header">
+							<h4>Tiện ích:</h4>
+							<i class="arrow fas fa-chevron-down"></i>
+						</div>
+						<div class="accordion-body">
+							<p>
+								<code>
+									covid (&lt;tên quốc gia bằng tiếng Anh&gt;)
+								</code>
+								: Lệnh này sẽ giúp bạn xem thông tin về Covid-19 trên toàn thế giới hoặc ở quốc gia
+							</p>
+							<p>
+								<code>
+									weather &lt;tên thành phố bằng tiếng Anh&gt;
+								</code>
+								: Lệnh này sẽ giúp bạn xem thông tin về thời tiết ở thành phố
+							</p>
+							<p>
+								<code>
+									tl &lt;ngôn ngữ cần dịch có 2 chữ cái&gt; &lt;nội dung cần dịch&gt;
+								</code>
+								: Lệnh này sẽ giúp bạn dịch nội dung sang 1 ngôn ngữ khác
+							</p>
+							<p>
+								<code>
+									ytstat &lt;tên kênh youtube&gt;
+								</code>
+								: Lệnh này sẽ giúp bạn xem thông tin về kênh youtube nào đó
+							</p>
+							<p>
+								<code>
+									calc
+								</code>
+								: Lệnh này sẽ giúp bạn mở máy tính của bot
+							</p>
+						</div>
+					</div>
+					<div class="accordion-item">
+						<div class="accordion-header">
+							<h4>Gif:</h4>
+							<i class="arrow fas fa-chevron-down"></i>
+						</div>
+						<div class="accordion-body">
+							<p>
+								<code>
+									wrest (&lt;thành viên&gt;)
+								</code>
+								: Lệnh này sẽ giúp bạn vật 1 thành viên mà bạn ghét
+							</p>
+							<p>
+								<code>
+									slap (&lt;thành viên&gt;)
+								</code>
+								: Lệnh này sẽ giúp bạn tát 1 thành viên mà bạn ghét
+							</p>
+							<p>
+								<code>
+									hug (&lt;thành viên&gt;)
+								</code>
+								: Lệnh này sẽ giúp bạn ôm 1 thành viên mà bạn thích (và cho chúng tôi ăn cơm chó)
+							</p>
+							<p>
+								<code>
+									kiss (&lt;thành viên&gt;)
+								</code>
+								: Lệnh này sẽ giúp bạn hôn 1 thành viên mà bạn yêu (và cho chúng tôi ăn cơm chó)
+							</p>
+						</div>
+					</div>
+					<div class="accordion-item">
+						<div class="accordion-header">
+							<h4>Game:</h4>
+							<i class="arrow fas fa-chevron-down"></i>
+						</div>
+						<div class="accordion-body">
+							<p>
+								<code>
+									reactiongame
+								</code>
+								: Lệnh này sẽ giúp bạn kiểm tra phản xạ của bạn
+							</p>
+							<p>
+								<code>
+									kbb
+								</code>
+								: Lệnh này sẽ giúp bạn chơi kéo búa bao cùng bot
+							</p>
+							<p>
+								<code>
+									guessflag
+								</code>
+								: Lệnh này sẽ giúp bạn chơi đoán tên quốc gia bằng quốc kì
+							</p>
+							<p>
+								<code>
+									cocaro (&lt;thành viên&gt;)
+								</code>
+								: Lệnh này sẽ giúp bạn chơi tictactoe (cờ caro mini) cùng thành viên khác
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			
 		</div>
 		<div name="footer">
 			<div class="footer">

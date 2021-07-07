@@ -4,6 +4,10 @@
 	margin: 0;
 	padding: 0;
 }
+#wrapper {
+	max-width: 800px;
+	margin: 0px auto;
+}
 body {
 	margin: 0;
     line-height:1;
@@ -76,12 +80,6 @@ div.a2 {
 	position:absolute;
 	top: 20px;
 	left: 125px;
-}
-.buttonmain {
-	background-color: #36393f;
-	padding: 50px;
-	width: 1259px;
-	position: relative;
 }
 
 div.a3 {
@@ -197,6 +195,62 @@ div.a3 {
     background-color: rgba(255,255,255,0.1);
     margin-bottom: 40px;
     margin-top: 40px;
+}
+
+.accordion-header {
+	font-size: 25px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #36393f;
+	padding: 10px 10px;
+	margin-bottom: 20px;
+	cursor: pointer;
+}
+
+.accordion-item.active .accordion-header {
+	background-color: #da251d;
+}
+
+.accordion-body {
+	font-size: 17px;
+	border: 2px solid #da251d;
+	padding: 10px 10px;
+	margin-bottom: 20px;
+	display: none;
+}
+
+.h4 {
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.accordion-item.active .arrow {
+	transform: rotate(180deg);
+}
+
+.arrow {
+	transition: all 0.3s;
+}
+
+.accordion-body p {
+	line-height: 30px;
+	background-color: #36393f;
+}
+
+code{
+    font-family: SFMono-Regular,Menlo,Monaco,Consolas,monospace;
+    font-size: 1em;
+}
+
+code {
+    font-size: .85rem;
+    border-radius: 3px;
+    padding: 2px 6px;
+    background: rgb(38, 38, 38);
+	color: #da251d;
+    font-weight: 400;
+    padding: .25em .5em;
 }
 
 @media (max-width: 800px) {
