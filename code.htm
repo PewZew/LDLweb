@@ -260,6 +260,16 @@
 				</b> </div>
 			</div>
 		</div>
+		<button id="btnScrollToTop">
+			<i class="fas fa-arrow-up"></i>
+		</button>
+		<script>
+			const btnScrollToTop = document.querySelector("#btnScrollToTop");
+
+			btnScrollToTop.addEventListener("click", function() {
+				$("html, body").animate({ scrollTop: 0 }, "slow")
+			})
+		</script>
 		<script scr="./sth.js"></script>
 	</body>
 </html>

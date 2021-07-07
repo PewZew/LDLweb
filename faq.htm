@@ -4,6 +4,8 @@
 		<link rel="stylesheet" type="text/css" href="styles.css">
 		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
+		<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
 		<link rel="icon" href="icon.png" type="image/png" sizes="16x16"/>
 		<meta charset="UTF-8">
 		<title>Lân Đông Lào</title>
@@ -69,6 +71,16 @@
 				</b> </div>
 			</div>
 		</div>
+		<button id="btnScrollToTop">
+			<i class="fas fa-arrow-up"></i>
+		</button>
+		<script>
+			const btnScrollToTop = document.querySelector("#btnScrollToTop");
+
+			btnScrollToTop.addEventListener("click", function() {
+				$("html, body").animate({ scrollTop: 0 }, "slow")
+			})
+		</script>
 		<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 		<script>
 			AOS.init();
