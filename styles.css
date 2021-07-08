@@ -1,4 +1,14 @@
-/*My code*/
+
+::-webkit-scrollbar {
+	width: 7px;
+}
+::-webkit-scrollbar-thumb {
+	background: #da251d;
+	border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+	background: #ffff00;
+}
 * {
 	box-sizing: inherit;
 	margin: 0;
@@ -272,6 +282,33 @@ code {
 
 #backtop:active {
 	box-shadow: none;
+}
+
+.fab {
+	padding: 10px;
+  	text-decoration: none;
+  	font-size: 50px;
+}
+.fab a {
+  	text-align: center;
+  	display: block;
+}
+.fab:hover {
+	opacity: 1;
+  	color: white;
+}
+.fa-discord {
+	opacity: 0.7;
+	color: white;
+}
+.fa-youtube-square {
+	opacity: 0.7;
+  	color: white;
+}
+#linkwrapper {
+  	position: absolute;
+  	top: 70px;
+  	right: 100px;
 }
 
 @media (max-width: 800px) {
