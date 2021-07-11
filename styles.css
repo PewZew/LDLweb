@@ -146,9 +146,15 @@ div.a3 {
 	transition: opacity 0.3s ease-in-out;
 }
 
-#mainbutton a:link {
-	background-color: #da251d;
+#mainbutton {
 	color: white;
+	text-align: center;
+	margin-top: 50px;
+}
+
+#mainbutton a:link {
+	color: white;
+	background-color: #da251d;
 	padding: 15px 25px;
 	font-size: 100%;
 	text-decoration: none;
