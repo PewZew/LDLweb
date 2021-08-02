@@ -255,23 +255,6 @@
 				</b> </div>
 			</div>
 		</div>
-		<button id="backtop">
-			<i class="fas fa-arrow-up"></i>
-		</button>
-		<script>
-			$(document).ready(function() {
-				$(window).scroll(function() {
-					if($(this).scrollTop()) {
-						$('#backtop').fadeIn()
-					} else {
-						$('#backtop').fadeOut()
-					}
-				})
-				$('#backtop').click(function() {
-					$('html, body').animate({ scrollTop: 0 }, 500)
-				})
-			})
-		</script>
 		<script scr="./sth.js"></script>
 	</body>
 </html>
