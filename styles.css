@@ -180,10 +180,11 @@ div.a3 {
 #mainbutton a:hover {
 	color: #ffff00;
 }
-
+/*
 #mainbutton a:link {
 	color: #ffff00;
 }
+*/
 
 #desc {
 	font-size: 150%;
