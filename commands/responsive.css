@@ -1,14 +1,5 @@
-@media (max-width: 1024px) {
-	#main .features .items .item {
-		flex-direction: column;
-	}
-
-	#main .features .items .item p {
-		margin-bottom: 20px;
-		/* margin-inline: ; */
-	}
-
-	#main .features .items .item:nth-child(odd) {
-		flex-direction: column;
-	}
+@media only screen and (max-width: 300px) {
+    #main {
+        padding-inline: 10px;
+    }
 }

@@ -3,7 +3,7 @@ a {
     font-weight: bold;
 }
 
-#main .privacy_policy {
+#main .terms_of_service {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -16,19 +16,19 @@ a {
     font-size: 20px;
 }
 
-#main .privacy_policy .heading {
+#main .terms_of_service .heading {
     font-size: 50px;
     font-family: Calibri, sans-serif;
     font-weight: bold;
     margin-bottom: 8px;
 }
 
-#main .privacy_policy .desc {
+#main .terms_of_service .desc {
     font-size: 20px;
     font-family: Calibri, sans-serif;
     margin-bottom: 40px;
 }
 
-#main .pp_sections .pp_section .title {
+#main .tos_sections .tos_section .title {
     font-size: 28px;
 }
