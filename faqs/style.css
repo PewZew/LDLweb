@@ -14,6 +14,11 @@
     color: yellow
 }
 
+#main {
+    padding-inline: 30px !important;
+    text-align: center;
+}
+
 #main .about {
     display: flex;
     flex-direction: column;

@@ -1,14 +1,22 @@
-@media (max-width: 1024px) {
-	#main .features .items .item {
-		flex-direction: column;
-	}
+@media only screen and (max-width: 800px) {
+    #main {
+        padding-inline: 0;
+        text-align: center;
+    }
 
-	#main .features .items .item p {
-		margin-bottom: 20px;
-		/* margin-inline: ; */
-	}
+    #main .privacy_policy .heading {
+        font-size: 35px;
+    }
 
-	#main .features .items .item:nth-child(odd) {
-		flex-direction: column;
-	}
+    #main .privacy_policy {
+        padding: 30px;
+    }
+    
+    #main .pp_section .title {
+        font-size: 18px;
+    }
+    
+    #main .pp_section .desc {
+        font-size: 16px;
+    }
 }
