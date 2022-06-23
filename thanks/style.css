@@ -1,0 +1,19 @@
+#main {
+    padding-inline: 30px !important;
+    text-align: center;
+}
+
+#main .about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+
+#main .about .desc {
+    font-size: 40px;
+    font-family: Calibri, sans-serif;
+    margin-bottom: 40px;
+}
